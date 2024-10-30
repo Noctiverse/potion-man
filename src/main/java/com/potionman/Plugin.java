@@ -30,7 +30,7 @@ public class Plugin extends net.runelite.client.plugins.Plugin
 			try
 			{
 				Clip clip = AudioSystem.getClip();
-				clip.open(AudioSystem.getAudioInputStream(new File("src/main/java/com/potionman/potion man.wav")));
+				clip.open(AudioSystem.getAudioInputStream(new File("src/main/resources/potion man.wav")));
 				clip.start();
 			}
 			catch (Exception exc)
